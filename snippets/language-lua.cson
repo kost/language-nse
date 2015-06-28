@@ -1,8 +1,7 @@
 '.source.nse':
   'basic nse template':
     'prefix': 'nsetemplate'
-    'body': 'description = [[\n]]\n\n---\n-- @usage\n--\n-- @output\n--\n-- @args\n--\n---\n\nauthor = ""
-license = "Same as Nmap--See http://nmap.org/book/man-legal.html"\ncategories = {}\n\nportrule =\n\naction = function(host, port)\n\nend'
+    'body': 'description = [[\n]]\n\n---\n-- @usage\n--\n-- @output\n--\n-- @args\n--\n---\n\nauthor = ""\nlicense = "Same as Nmap--See http://nmap.org/book/man-legal.html"\ncategories = {}\n\nportrule =\n\naction = function(host, port)\n\nend'
   'multiline comment':
     'prefix': '-['
     'body': '--[[ ${0:comment...}]'
