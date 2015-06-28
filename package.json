@@ -1,6 +1,6 @@
 {
   "name": "language-nse",
-  "version": "0.10.0",
+  "version": "0.11.0",
   "private": false,
   "author": "Vlatko Kosturjak <vlatko.kosturjak@gmail.com>",
   "description": "Add syntax highlighting and snippets to Nmap Scripting Engine files in Atom",
