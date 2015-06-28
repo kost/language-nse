@@ -1,0 +1,13 @@
+{
+  "name": "language-nse",
+  "version": "0.9.3",
+  "private": false,
+  "author": "Vlatko Kosturjak <vlatko.kosturjak@gmail.com>",
+  "description": "Add syntax highlighting and snippets to Nmap Scripting Engine files in Atom",
+  "repository": "https://github.com/kost/language-nse",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.50.0"
+  },
+  "dependencies": {}
+}
