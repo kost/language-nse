@@ -9,8 +9,14 @@ Common NSE snippets
 ---
 | Trigger       | Name                     | Body description     |
 | ------------- |--------------------------| ---------------------|
-| nsetemplate   | Use basic NSE template   | Basic NSE template    |
-| nsehttp       | Use http NSE template    | Basic http NSE script  |
+| nsetemplate   | basic nse template       | Basic NSE template    |
+| nsehttp       | http nse template        | Basic http NSE script  |
+
+Reporting NSE snippets
+---
+| Trigger       | Name                     | Body description     |
+| ------------- |--------------------------| ---------------------|
+| vulnoutput    | vuln output template     | Basic vuln report   |
 
 Common Lua snippets
 ---
