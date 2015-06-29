@@ -2,6 +2,12 @@
   'basic nse template':
     'prefix': 'nsetemplate'
     'body': 'description = [[\n]]\n\n---\n-- @usage\n--\n-- @output\n--\n-- @args\n--\n---\n\nauthor = ""\nlicense = "Same as Nmap--See http://nmap.org/book/man-legal.html"\ncategories = {}\n\nportrule =\n\naction = function(host, port)\n\nend'
+  'http nse template':
+    'prefix': 'nsehttp'
+    'body': 'description = [[\n]]\n\n---\n-- @usage\n--\n-- @output\n--\n-- @args\n--\n---\n\nauthor = ""\nlicense = "Same as Nmap--See http://nmap.org/book/man-legal.html"\ncategories = {"discovery","default"}\n\nlocal http = require "http"\nlocal shortport = require "shortport"\n\nportrule = shortport.port_or_service({80, 443, 8080, 9044}, {"http", "https", "tcp", "open"})\n\naction = function(host, port)\n\tlocal response = http.get(host, port, "/uri", { no_cache = true, redirect_ok = 3 })\nend'
+  'vuln template':
+    'prefix': 'vulnoutput'
+    'body': 'local vuln = {\n\t title = "TITLE",\n\tstate = vulns.STATE.NOT_VULN,\n\tdescription = [[\nDescription\n\t]],references = {\n\t"https://cve.mitre.org/cgi-bin/cvename.cgi?name="\n},\ndates = {\n\tdisclosure = {year = '1970', month = '01', day = '01'},\n},\n}'
   'multiline comment':
     'prefix': '-['
     'body': '--[[ ${0:comment...}]'
