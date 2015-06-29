@@ -5,14 +5,14 @@ Add syntax highlighting and snippets to NSE and Lua files in Atom.
 
 See: https://atom.io/packages/language-nse
 
-Common snippets
+Common NSE snippets
 ---
-| Trigger       | Name                     | Body                 |
+| Trigger       | Name                     | Body description     |
 | ------------- |--------------------------| ---------------------|
-| nsetemplate   | Use basic NSE template   | Very long, try it    |
-| nsehttp       | Use http NSE template    | Very long, try it    |
+| nsetemplate   | Use basic NSE template   | Basic NSE template    |
+| nsehttp       | Use http NSE template    | Basic http NSE script  |
 
-Common snippets
+Common Lua snippets
 ---
 | Trigger       | Name                     | Body                 |
 | ------------- |--------------------------| ---------------------|
@@ -89,8 +89,8 @@ Math function snippets
 
 Author
 ------
-__Jorge Garrido Oval__
-* [https://github.com/FireZenk](https://github.com/FireZenk)
+__Vlatko Kosturjak__
+* [https://github.com/kost](https://github.com/kost)
 
 
 Contributors
@@ -101,7 +101,10 @@ pull request to add snippets, make grammar tweaks, etc.
 
 License
 ------
-Atom language-lua is released under the MIT license.
+Atom language-nse is released under the MIT license. 
+
+Originally taken from language-lua from https://github.com/FireZenk/language-lua
+(author: __Jorge Garrido Oval__)
 
 >Originally [converted](http://atom.io/docs/latest/converting-a-text-mate-bundle)
 from the [Lua TextMate bundle](https://github.com/textmate/lua.tmbundle).
